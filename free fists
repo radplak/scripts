@@ -27,7 +27,7 @@
 
 	-- // Hotkeys
 	uis.InputBegan:connect(function(Key)
-		if (Key.KeyCode == Enum.KeyCode.Q) then
+		if (Key.KeyCode == Enum.KeyCode.T) then
 			if (FistControl == false) then
 				FistControl = true
 				Start()
